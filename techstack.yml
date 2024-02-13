@@ -1,0 +1,368 @@
+repo_name: alexravenna/bat
+report_id: 28bc2869dbd79ba702c7aa7ccdd026ef
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-13T11:02:18+00:00'
+requested_by: cyqsimon
+provider: github
+branch: master
+detected_tools_count: 29
+tools:
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/alexravenna/bat/blob/master/tests/syntax-tests/highlighted/C-Sharp/Stack.cs
+  detection_source: tests/syntax-tests/highlighted/C-Sharp/Stack.cs
+  last_updated_by: Giorgi Beriashvili
+  last_updated_on: 2020-10-04 22:26:05.000000000 Z
+- name: CoffeeScript
+  description: A little language that compiles into JavaScript
+  website_url: http://coffeescript.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1178/slQydAMv.png
+  detection_source_url: https://github.com/alexravenna/bat/blob/master/tests/syntax-tests/highlighted/CoffeeScript/coffeescript.coffee
+  detection_source: tests/syntax-tests/highlighted/CoffeeScript/coffeescript.coffee
+  last_updated_by: Mohamed Abdelnour
+  last_updated_on: 2021-05-29 00:21:24.000000000 Z
+- name: Erlang
+  description: A programming language used to build massively scalable soft real-time
+    systems with requirements on high availability
+  website_url: http://www.erlang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1004/cbdf77412da183e43d41c0c0f9a7005a.jpeg
+  detection_source_url: https://github.com/alexravenna/bat/blob/master/tests/syntax-tests/highlighted/Erlang/bat_erlang.erl
+  detection_source: tests/syntax-tests/highlighted/Erlang/bat_erlang.erl
+  last_updated_by: Jacky Hui
+  last_updated_on: 2020-10-08 22:09:49.000000000 Z
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/alexravenna/bat/blob/master/tests/syntax-tests/highlighted/Go/main.go
+  detection_source: tests/syntax-tests/highlighted/Go/main.go
+  last_updated_by: Quang Le
+  last_updated_on: 2020-10-04 05:30:44.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/alexravenna/bat/blob/master/tests/benchmarks/highlighting-speed-src/jquery.js
+  detection_source: tests/benchmarks/highlighting-speed-src/jquery.js
+  last_updated_by: sharkdp
+  last_updated_on: 2018-05-14 19:42:07.000000000 Z
+- name: Jinja
+  description: Full featured template engine for Python
+  website_url: https://palletsprojects.com/p/jinja/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
+  detection_source_url: https://github.com/alexravenna/bat/blob/master/assets/syntaxes/02_Extra/syntax_test_requirements.txt
+  detection_source: assets/syntaxes/02_Extra/syntax_test_requirements.txt
+  last_updated_by: Wu Zhenyu
+  last_updated_on: 2022-10-11 17:37:17.000000000 Z
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/alexravenna/bat/blob/master/tests/syntax-tests/highlighted/Kotlin/test.kt
+  detection_source: tests/syntax-tests/highlighted/Kotlin/test.kt
+  last_updated_by: Filip Czaplicki
+  last_updated_on: 2020-10-04 20:14:58.000000000 Z
+- name: Lua
+  description: Powerful, fast, lightweight, embeddable scripting language
+  website_url: http://www.lua.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2118/128px-Lua-Logo.svg.png
+  detection_source_url: https://github.com/alexravenna/bat/blob/master/tests/syntax-tests/highlighted/Lua/test.lua
+  detection_source: tests/syntax-tests/highlighted/Lua/test.lua
+  last_updated_by: Felipe Garcia
+  last_updated_on: 2020-10-06 23:45:12.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/alexravenna/bat
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/alexravenna/bat/blob/master/Cargo.toml
+  detection_source: Cargo.toml
+  last_updated_by: sharkdp
+  last_updated_on: 2018-04-21 10:51:43.000000000 Z
+- name: Rust
+  description: A safe, concurrent, practical language
+  website_url: http://www.rust-lang.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1070/v7txhrjp9pdqrkdtxxp0.png
+  detection_source_url: https://github.com/alexravenna/bat
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/alexravenna/bat/blob/master/tests/syntax-tests/highlighted/SQL/ims.sql
+  detection_source: tests/syntax-tests/highlighted/SQL/ims.sql
+  last_updated_by: uabua
+  last_updated_on: 2020-10-05 19:01:05.000000000 Z
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/alexravenna/bat/blob/master/Cargo.toml
+  detection_source: Cargo.toml
+  last_updated_by: sharkdp
+  last_updated_on: 2018-04-21 10:51:43.000000000 Z
+- name: Serde
+  description: Serialization framework for Rust
+  website_url: https://serde.rs
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/11028/no-img-open-source.png
+  detection_source_url: https://github.com/alexravenna/bat/blob/master/Cargo.toml
+  detection_source: Cargo.toml
+  last_updated_by: Raghav-Bell
+  last_updated_on: 2023-10-01 17:44:10.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/alexravenna/bat/blob/master/assets/syntaxes/02_Extra/syntax_test_requirements.txt
+  detection_source: assets/syntaxes/02_Extra/syntax_test_requirements.txt
+  last_updated_by: Wu Zhenyu
+  last_updated_on: 2022-10-11 17:37:17.000000000 Z
+- name: CMake
+  description: An open-source system that manages the build process
+  website_url: http://www.cmake.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/2424/0UlUI_y1_400x400.jpg
+  detection_source_url: https://github.com/alexravenna/bat/blob/master/tests/syntax-tests/highlighted/CMake/CMakeLists.txt
+  detection_source: tests/syntax-tests/highlighted/CMake/CMakeLists.txt
+  last_updated_by: Daniel Wolbach
+  last_updated_on: 2020-10-09 19:47:02.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/alexravenna/bat/blob/master/.github/.codecov.yml
+  detection_source: ".github/.codecov.yml"
+  last_updated_by: sharkdp
+  last_updated_on: 2020-08-02 10:52:29.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/alexravenna/bat/blob/master/tests/syntax-tests/highlighted/Dockerfile/Dockerfile
+  detection_source: tests/syntax-tests/highlighted/Dockerfile/Dockerfile
+  last_updated_by: grg121
+  last_updated_on: 2020-10-10 19:43:11.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/alexravenna/bat
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/alexravenna/bat/blob/master/.github/workflows/Auto-merge-dependabot-PRs.yml
+  detection_source: ".github/workflows/Auto-merge-dependabot-PRs.yml"
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-17 14:13:22.000000000 Z
+- name: NGINX
+  description: A high performance free open source web server powering busiest sites
+    on the Internet.
+  website_url: http://nginx.org
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source_url: https://github.com/alexravenna/bat/blob/master/tests/syntax-tests/highlighted/nginx/nginx.conf
+  detection_source: tests/syntax-tests/highlighted/nginx/nginx.conf
+  last_updated_by: Alan Berndt
+  last_updated_on: 2020-10-24 11:09:52.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/alexravenna/bat/blob/master/Cargo.toml
+  detection_source: Cargo.toml
+  last_updated_by: sharkdp
+  last_updated_on: 2018-04-21 10:51:43.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/alexravenna/bat/blob/master/assets/syntaxes/02_Extra/syntax_test_requirements.txt
+  detection_source: assets/syntaxes/02_Extra/syntax_test_requirements.txt
+  last_updated_by: Wu Zhenyu
+  last_updated_on: 2022-10-11 17:37:17.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/alexravenna/bat/blob/master/Cargo.toml
+  detection_source: Cargo.toml
+  last_updated_by: sharkdp
+  last_updated_on: 2018-04-21 10:51:43.000000000 Z
+- name: Zope
+  description: A free and open source web application server written in the object-oriented
+    programming language “Python”
+  website_url: https://www.zope.org
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/6969/zopeHIres_400x400.jpg
+  detection_source_url: https://github.com/alexravenna/bat/blob/master/assets/syntaxes/02_Extra/syntax_test_requirements.txt
+  detection_source: assets/syntaxes/02_Extra/syntax_test_requirements.txt
+  last_updated_by: Wu Zhenyu
+  last_updated_on: 2022-10-11 17:37:17.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/alexravenna/bat/blob/master/Cargo.toml
+  detection_source: Cargo.toml
+  last_updated_by: sharkdp
+  last_updated_on: 2018-04-21 10:51:43.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/alexravenna/bat
+  detection_source: Repo Metadata
+- name: Sphinx
+  description: Open source full text search server, designed from the ground up with
+    performance, relevance (aka search quality), and integration simplicity in mind
+  website_url: http://sphinxsearch.com/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search Engines
+  image_url: https://img.stackshare.io/service/1598/TtqoAo1V.png
+  detection_source_url: https://github.com/alexravenna/bat/blob/master/assets/syntaxes/02_Extra/syntax_test_requirements.txt
+  detection_source: assets/syntaxes/02_Extra/syntax_test_requirements.txt
+  last_updated_by: Wu Zhenyu
+  last_updated_on: 2022-10-11 17:37:17.000000000 Z
+- name: docutils
+  description: "http://t.co/lH6rcPxBja Service Outage and other informational alerts.\r\n\r\nFor
+    support, see ticket/IRC/email information on http://t.co/nE5akSwLqM"
+  website_url: http://docutils.sourceforge.net/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8480/LI68uG-2_normal.jpg
+  detection_source_url: https://github.com/alexravenna/bat/blob/master/assets/syntaxes/02_Extra/syntax_test_requirements.txt
+  detection_source: assets/syntaxes/02_Extra/syntax_test_requirements.txt
+  last_updated_by: Wu Zhenyu
+  last_updated_on: 2022-10-11 17:37:17.000000000 Z
